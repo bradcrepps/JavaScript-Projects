@@ -29,12 +29,29 @@ function more_Math() {
 
 }
 
+//Remainder example
 function modulus_Operator() {
     var remainder_Math = 25 % 6;
     document.getElementById("Remain_math").innerHTML = remainder_Math;
 }
 
+//variable equaling a positive but displaying as negative
 function negation_Operator() {
     var x = 10;
     document.getElementById("Unary_Operator").innerHTML= -x;
-}
+} 
+
+//Incrimental adding
+function incremental_add() {
+    var y = 5;
+    y++;
+    document.getElementById("Incrimental_addition").innerHTML= y;
+} 
+
+//Decreimnental subtracting
+function decrimental_minus() {
+    var z = 10;
+    z--;
+    document.getElementById("Decrimental_subtraction").innerHTML= z;
+} 
+
