@@ -33,3 +33,8 @@ function modulus_Operator() {
     var remainder_Math = 25 % 6;
     document.getElementById("Remain_math").innerHTML = remainder_Math;
 }
+
+function negation_Operator() {
+    var x = 10;
+    document.getElementById("Unary_Operator").innerHTML= -x;
+}
