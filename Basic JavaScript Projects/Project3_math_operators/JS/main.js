@@ -55,4 +55,5 @@ function decrimental_minus() {
     document.getElementById("Decrimental_subtraction").innerHTML= z;
 } 
 
+//window alert random number 1000
 window.alert(Math.random() *1000);
