@@ -29,3 +29,7 @@ function more_Math() {
 
 }
 
+function modulus_Operator() {
+    var remainder_Math = 25 % 6;
+    document.getElementById("Remain_math").innerHTML = remainder_Math;
+}
