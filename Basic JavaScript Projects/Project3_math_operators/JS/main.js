@@ -55,3 +55,4 @@ function decrimental_minus() {
     document.getElementById("Decrimental_subtraction").innerHTML= z;
 } 
 
+window.alert(Math.random() *1000);
