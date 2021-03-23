@@ -18,8 +18,21 @@ function myFunction() {
     document.getElementById("Keywords_and_Constructors").innerHTML= "Erich drives a " + Erich.Vehicle_Color + "-colored " + Erich.Vehicle_Model + " manufactured in " +Erich.Vehicle_Year;
 }
 
+function Dog (Breed, age, color, tricks, size) {
+    this.Dog_Breed=Breed;
+    this.Dog_age=age;
+    this.Dog_color=color;
+    this.Dog_tricks=tricks;
+    this.Dog_size=size;
+}
+var Pascal= new Dog("French Bulldog", 13, "Black and White", "Beg for treats", "Large");
+var Riley= new Dog("Springer", 9, "Brown and White", "Whine a lot", "Medium");
+function newFunction() {
+    document.getElementById("New_and_This").innerHTML= "Riley is a "+Riley.Dog_Breed;
+}
+
 function count_Function() {
-    document.getElementById("Nested_Function").innerHTML=Count();
+    document.getElementById("Nested_Function").innerHTML = Count();
     function Count() {
         var Starting_point= 9;
         function Plus_one() {Starting_point += 1;}
