@@ -1,3 +1,4 @@
+//Height requirement to ride
 function Ride_Function() {
     var Height, Can_ride;
     Height = document.getElementById("Height").value;
@@ -5,6 +6,7 @@ function Ride_Function() {
     document.getElementById("Ride").innerHTML = Can_ride + " to ride.";
 }
 
+//Dictionary for Vehicles
 function Vehicle(Make, Model, Year, Color) {
     this.Vehicle_Make = Make;
     this.Vehicle_Model = Model;
@@ -18,6 +20,7 @@ function myFunction() {
     document.getElementById("Keywords_and_Constructors").innerHTML= "Erich drives a " + Erich.Vehicle_Color + "-colored " + Erich.Vehicle_Model + " manufactured in " +Erich.Vehicle_Year;
 }
 
+//Dictonary for Dogs
 function Dog (Breed, age, color, tricks, size) {
     this.Dog_Breed=Breed;
     this.Dog_age=age;
@@ -31,6 +34,7 @@ function newFunction() {
     document.getElementById("New_and_This").innerHTML= "Riley is a "+Riley.Dog_Breed;
 }
 
+//Ternary Operator example
 function count_Function() {
     document.getElementById("Nested_Function").innerHTML = Count();
     function Count() {
